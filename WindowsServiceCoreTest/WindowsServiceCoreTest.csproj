@@ -1,0 +1,19 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+   <PropertyGroup>
+      <OutputType>exe</OutputType>
+      <TargetFramework>netcoreapp1.1</TargetFramework>
+      <ApplicationIcon />
+      <OutputTypeEx>exe</OutputTypeEx>
+      <RuntimeIdentifiers>win81-x64;win10-x64</RuntimeIdentifiers>
+      <StartupObject />
+      <GenerateAssemblyConfigurationAttribute>false</GenerateAssemblyConfigurationAttribute>
+      <GenerateAssemblyCompanyAttribute>false</GenerateAssemblyCompanyAttribute>
+      <GenerateAssemblyProductAttribute>false</GenerateAssemblyProductAttribute>
+   </PropertyGroup>
+
+   <ItemGroup>
+      <PackageReference Include="PeterKottas.DotNetCore.WindowsService" Version="1.0.19" />
+   </ItemGroup>
+
+</Project>
